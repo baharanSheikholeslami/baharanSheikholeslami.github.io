@@ -1,5 +1,5 @@
 import Header from "@/modules/Header";
-import HomePageModule from "@/modules/HomePageModule";
+import ProjectsPageModule from "@/modules/ProjectsPageModule";
 import { Geist, Geist_Mono } from "next/font/google";
 
 import type { FC } from "react";
@@ -17,7 +17,7 @@ const Page: FC = () => {
   return (
     <>
       <Header />
-      <HomePageModule />
+      <ProjectsPageModule />
     </>
   );
 };
