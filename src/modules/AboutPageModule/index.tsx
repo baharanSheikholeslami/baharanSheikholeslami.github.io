@@ -9,7 +9,6 @@ const AboutPageModule = () => {
         <div className="md:p-15 px-4 py-15">
           <div className="w-full bg-[#1FC0BF] rounded-2xl py-4 flex flex-row justify-center md:items-center items-start gap-4">
             <Image
-              unoptimized
               priority
               src={"/assets/music.svg"}
               alt="logo"
@@ -49,7 +48,6 @@ const AboutPageModule = () => {
                   atmosphere.
                   <a href="https://open.spotify.com/track/60Wh77e7OunMYGiW4qLWZK">
                     <Image
-                      unoptimized
                       priority
                       src={"/assets/play.svg"}
                       alt="logo"
@@ -77,7 +75,6 @@ const AboutPageModule = () => {
                   evoke deep emotional resonance.
                   <a href="https://open.spotify.com/track/5sh7886NziXcQGfv5Yq8ko">
                     <Image
-                      unoptimized
                       priority
                       src={"/assets/play.svg"}
                       alt="logo"
@@ -108,7 +105,6 @@ const AboutPageModule = () => {
                   piano renditions and ambient covers .​
                   <a href="https://open.spotify.com/track/1lb3H41lbvAN28N7yqRNL9">
                     <Image
-                      unoptimized
                       priority
                       src={"/assets/play.svg"}
                       alt="logo"
@@ -137,7 +133,6 @@ const AboutPageModule = () => {
                   introspection.
                   <a href="https://open.spotify.com/track/65lYbLoubih0ZSuuZEneSl">
                     <Image
-                      unoptimized
                       priority
                       src={"/assets/play.svg"}
                       alt="logo"

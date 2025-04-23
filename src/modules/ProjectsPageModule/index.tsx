@@ -17,7 +17,6 @@ const ProjectsPageModule = () => {
                   roject 1
                 </p>
                 <Image
-                  unoptimized
                   priority
                   src={"/assets/hamrahtel.svg"}
                   alt="logo"
@@ -54,7 +53,6 @@ const ProjectsPageModule = () => {
                   roject 2
                 </p>
                 <Image
-                  unoptimized
                   priority
                   src={"/assets/GSM.png"}
                   alt="logo"
@@ -89,7 +87,6 @@ const ProjectsPageModule = () => {
                   roject 3
                 </p>
                 <Image
-                  unoptimized
                   priority
                   src={"/assets/product-plan.png"}
                   alt="logo"

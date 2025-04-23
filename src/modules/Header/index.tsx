@@ -12,7 +12,6 @@ const Header = () => {
     <header className="w-full h-[80px] bg-white right-0 flex justify-center items-center sticky top-0 !z-20">
       <div className="flex flex-row justify-between items-center w-[90%]">
         <Image
-          unoptimized
           priority
           src={"/assets/Baharan.svg"}
           alt="logo"

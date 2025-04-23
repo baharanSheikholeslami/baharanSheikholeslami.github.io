@@ -16,7 +16,6 @@ const HomePageModule = () => {
               <div>
                 <div className="flex flex-row items-end gap-4">
                   <Image
-                    unoptimized
                     priority
                     src={"/assets/Welcome.svg"}
                     alt="welcome logo"
@@ -41,7 +40,6 @@ const HomePageModule = () => {
               </div>
               <div className="flex justify-center">
                 <Image
-                  unoptimized
                   priority
                   src={"/assets/profile.png"}
                   alt="profile img"
@@ -66,7 +64,6 @@ const HomePageModule = () => {
             </section>
 
             <Image
-              unoptimized
               priority
               src={"/assets/profile.png"}
               alt="profile img"
