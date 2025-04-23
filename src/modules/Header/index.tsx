@@ -1,12 +1,9 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { useState } from "react";
 const Header = () => {
-  const [isActive, setIsActive] = useState<Boolean>();
   const router = useRouter();
   const pathname = router.pathname;
-  console.log("path", pathname);
 
   return (
     <header className="w-full h-[80px] bg-white right-0 flex justify-center items-center sticky top-0 !z-20">
