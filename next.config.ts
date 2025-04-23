@@ -1,10 +1,7 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
   },
-  assetPrefix: './', 
+  assetPrefix: '/baharanSheikholeslami.github.io',
 };
-
-module.exports = nextConfig;
